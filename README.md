@@ -2,6 +2,11 @@
 
 Este projeto foi criado para consolidar o aprendizado da linguagem Java utilizando o framework Spring.
 
+## Executar projeto
+- **Java**: version 17.
+- Utilize "docker-compose up" para iniciar o banco de dados
+- Rode o projeto.
+
 ## Dependências
 
 Este projeto utiliza as seguintes dependências:
