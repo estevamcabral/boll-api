@@ -3,7 +3,9 @@ package com.boll.controllers.players;
 import com.boll.entities.Player;
 import com.boll.services.PlayerService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.repository.query.Param;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -14,12 +16,7 @@ public class PlayerController {
     PlayerService playerService;
 
     @PostMapping
-    private void create(){
-        Player player = new Player();
-        player.setName("User teste");
-        player.setEmail("emailteste@email.com");
-        player.setTelephone("51984171945");
-
+    private void create(@RequestBody Player player){
         playerService.createPlayer(player);
     }
 
