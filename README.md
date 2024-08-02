@@ -22,6 +22,6 @@ Outras dependências serão adicionadas ao longo do desenvolvimento do projeto e
 Para contribuir com o projeto, siga as diretrizes abaixo:
 
 1. **Branch de Desenvolvimento**: Utilize a branch `dev` para suas contribuições.
-2. **Commits**: Adote o padrão de Conventional Commits. Os commits podem ser feitos em português para facilitar a leitura. No entanto, este projeto seguirá a nomenclatura em inglês para a documentação e mensagens.
+2. **Commits**: Adote o padrão de Conventional Commits. Os commits podem ser feitos em português para facilitar a leitura. No entanto, este projeto seguirá a nomenclatura em inglês para o desenvolvimento.
 
 [estevamcabral1308@gmail.com](mailto:estevamcabral1308@gmail.com).
